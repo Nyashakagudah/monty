@@ -1,6 +1,8 @@
 #include "monty.h"
+
 bus_t bus = {NULL, NULL, NULL, 0};
-:::*
+
+/**
 * main - Runs the monty bytecode interpreter
 * @argc: Argument count
 * @argv: Argument vector (file path)

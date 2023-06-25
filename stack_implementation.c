@@ -42,10 +42,10 @@ void addqueue(stack_t **head, int n)
 	{
 		*head = new_node;/*Update head to point to new node*/
 		new_node->prev = NULL;/*Set prev mmber of new node to NULL as it first node*/
+	}
 		else /*If the stack is not empty*/
 		{
 			aux->next = new_node;/*Update next mmbr of last node point to new node*/
 			new_node->prev = aux;/*Set prev embr of new node to last node*/
 		}
-	}
 }
